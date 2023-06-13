@@ -8,10 +8,7 @@ const Main =()=>{
     return(
        <div>
         <Topheader/>
-        
-      
-        
-      </div>
+       </div>
     )
 }
 
