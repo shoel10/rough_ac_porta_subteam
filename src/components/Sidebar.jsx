@@ -9,7 +9,7 @@ export default props => {
       <a className="menu-item" href="/">
         Customer
       </a>
-      <a className="menu-item" href="">
+      <a className="menu-item" href="/">
         Employee
       </a>
       <a className="menu-item" href="/">
