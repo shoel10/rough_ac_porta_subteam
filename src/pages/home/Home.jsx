@@ -1,12 +1,12 @@
 //import Sidebar from "../../components/sidebar/Sidebar";
 //import Navbar from "../../components/navbar/Navbar";
-import "./keyPerformanceGraphs.scss";
+import "./home.scss";
 import Widget from "../../components/widget/Widget";
 import Featured from "../../components/featured/Featured";
 import Chart from "../../components/chart/Chart";
 
 
-const KeyPerformanceGraphs = () => {
+const Home = () => {
   return (
     <div className="home">
       
@@ -28,4 +28,4 @@ const KeyPerformanceGraphs = () => {
   );
 };
 
-export default KeyPerformanceGraphs;
+export default Home;
