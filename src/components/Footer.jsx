@@ -15,9 +15,7 @@ const Footer = () =>{
                                 <h3 className='text-Black'>About Us</h3><hr className='bg-black'></hr>
                                 <p className='text-Black pr-5' style={{textAlign:'left'}}>
                                 The AC REPAIR PORTAL ,the onestop solution for you to book repairing of your AC
-                                or it's franchaise partner.We therefore garuntee are product to be 100 % genuine and fresh.
-                                Organic vegetable or fruits as we all know are grown without using
-                                any kind of artificial fertiliser, pesticides, or herbicides. They are just grown naturally.
+                                or it's franchaise partner.We therefore garuntee are product to be perfect
                                  
                                 </p>
 

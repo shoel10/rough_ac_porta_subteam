@@ -1,6 +1,8 @@
 import React from 'react';
 import { bubble as Menu } from 'react-burger-menu';
 import '../css/Sidebar.css';
+//import  from './AdminMainPage';
+import {Link} from 'react-router-dom';
 
 export default props => {
   return (
@@ -14,13 +16,12 @@ export default props => {
         Employee
       </a>
 
-      <a className="menu-item" href="/">
-        Service- providers
+      <a className="menu-item">
+      <Link to ="/AdminMainPage" >Service Provider(Admin)</Link>
+        
+        
       </a>
       
-      <a className="menu-item" href="/">
-        Admin
-      </a>
     </Menu>
   );
 };
