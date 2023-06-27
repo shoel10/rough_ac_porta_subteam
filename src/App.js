@@ -1,30 +1,25 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import Main from './components/Main';
-import Home from "./pages/home/Home";
-import Footer from './components/Footer';
-import AdminMainPage from './components/AdminMainPage';
+import NavBar from './Components/CustomerBooking/NavBar';
+import {Container, Row, Col} from "reactstrap";
+import MenuContent from './Components/CustomerBooking/MenuContent';
+import RequetForm from './Components/CustomerBooking/RequetForm';
+export default function App() {
 
-function App() {
   return (
-    <div className="App">
-        <BrowserRouter>
-            <Routes>
-               <Route exact path="/" element={<Main />}></Route>
-            </Routes>
-            <Routes>
-        <Route path="/" element={<Home />}>
-        </Route>
-      </Routes>
-      <Routes>
-        <Route path="/AdminMainPage" element={<AdminMainPage />}>
-        </Route>
-      </Routes>
-      <Footer/> 
-        </BrowserRouter>
-    </div>
-  );
-}
+    <div>
+      <NavBar></NavBar>
+      <Container className='my-3'>
+        <Row>
+          <Col md={4}>
+          <MenuContent></MenuContent>
+          </Col>
+          <Col md={8}>
+          <RequetForm></RequetForm>
+          </Col>
+        </Row>
+      </Container>
 
-export default App;
+    </div>
+  )
+}
